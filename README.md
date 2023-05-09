@@ -30,3 +30,12 @@ Despite having many voice removing options, they cannot remove all noises, speci
 
 ### Infer
 The TTS inference includes two parts: 1) Google TTS 2) VC. SpeechT5 is not reliable for languages outside English, and Google TTS offers higher audio quality. 
+
+Please edit "infer.bat" and other variables to fit your own needs.
+
+## Remark
+Pros: it works
+
+Cons: high latency; only interactable from terminal right now.
+
+Due to the mismatch in pytorch and cuda versions between the voice converter and main.py, it is currently difficult to discard the batch script and merge the voice converter into main.py. If this is doable latency can be eliminated.

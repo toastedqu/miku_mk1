@@ -1,0 +1,7 @@
+datasets==2.2.1
+gTTS==2.3.2
+langchain==0.0.163
+sounddevice==0.4.6
+soundfile==0.12.1
+torch==1.12.1+cu116
+transformers==4.28.0.dev0
